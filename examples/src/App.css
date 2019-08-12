@@ -1,0 +1,108 @@
+body{
+  background-color: #282c34;
+  height: 100vh;
+  color: white;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  font-size: 15px;
+  color: #020202;
+text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.anime {
+  animation: go infinite 8s linear;
+
+}
+@keyframes go {
+  0% {
+    transform: translateX(300px);
+  }
+  25% {
+    transform: translateX(-300px);
+  }
+  50% {
+    transform: translate(-300px,600px);
+  }
+  75% {
+    transform: translate(300px,600px);
+  }
+  100% {
+    transform: translate(300px,0px);
+  }
+}
+.wrap{
+  margin-top: 50px;
+  text-align: center;
+  margin: 50px auto;
+  width: 1000px;
+  border: #fff2f2 solid 1px;
+}
+.todos{
+  margin-bottom: 25px;
+  border:#000000 solid 20% 0;
+
+}
+.todos input[type="text"]{
+  margin-right: 5px;
+}
+.task{
+  list-style: none;
+}
+.todolist {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  list-style: none;
+}
+.todolist li {
+  text-align: left;
+  margin-left: 22%;
+}
+.mail_form{
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+  width: 50%;
+  border: #fff2f2 solid 1px;
+  padding: 5px;
+}
+
+.Listbox{
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+  width: 400px;
+  min-width: 400px;
+  border: #fff2f2 solid 1px;
+  padding: 5px;
+}
+.hide{
+  visibility: hidden;
+}
